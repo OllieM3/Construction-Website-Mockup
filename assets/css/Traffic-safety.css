@@ -1,0 +1,314 @@
+﻿/* --- GDC TRAFFIC SAFETY STYLES (style.css) --- */
+
+/* --- VARIABLES & RESET --- */
+:root {
+    --primary-navy: #0f172a;
+    --secondary-blue: #1e293b;
+    --safety-orange: #f97316;
+    --safety-orange-hover: #ea580c;
+    --light-gray: #f8fafc;
+    --text-dark: #334155;
+    --text-light: #f1f5f9;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background-color: var(--light-gray);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* --- UTILITIES & LAYOUT --- */
+.container {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--safety-orange);
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: var(--safety-orange-hover);
+    }
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+}
+
+    .btn-outline:hover {
+        background: white;
+        color: var(--primary-navy);
+    }
+
+/* --- HEADER --- */
+header {
+    background-color: var(--primary-navy);
+    color: var(--text-light);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+    .logo span {
+        color: var(--safety-orange);
+    }
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+    .nav-links a {
+        font-size: 0.95rem;
+        font-weight: 500;
+        opacity: 0.9;
+        transition: opacity 0.3s;
+    }
+
+        .nav-links a:hover {
+            opacity: 1;
+            color: var(--safety-orange);
+        }
+
+/* --- HERO SECTION (TRAFFIC SPECIFIC) --- */
+.hero-traffic {
+    /* Image featuring Black construction/safety worker */
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1594896209594-5558d7c430e7?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    opacity: 0.9;
+}
+
+/* --- SERVICES GRID --- */
+.section-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+    .section-header h2 {
+        font-size: 2.5rem;
+        color: var(--primary-navy);
+        margin-bottom: 15px;
+    }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.service-card {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-bottom: 4px solid var(--safety-orange);
+    transition: transform 0.3s ease;
+}
+
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+
+.service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-navy);
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    color: var(--primary-navy);
+    font-size: 1.5rem;
+}
+
+/* --- CERTIFICATIONS & MBE SECTION --- */
+.cert-section {
+    background-color: var(--primary-navy);
+    color: white;
+    padding: 80px 0;
+}
+
+.cert-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.cert-content {
+    flex: 1;
+}
+
+    .cert-content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .cert-content p {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+        opacity: 0.9;
+    }
+
+.cert-badges {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.badge-box {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+    .badge-box h4 {
+        color: var(--safety-orange);
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .badge-box span {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+/* --- FOOTER --- */
+footer {
+    background-color: var(--secondary-blue);
+    color: #94a3b8;
+    padding: 80px 0 30px;
+    font-size: 0.95rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-col h5 {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+.footer-col a {
+    display: block;
+    margin-bottom: 12px;
+    transition: color 0.2s;
+}
+
+    .footer-col a:hover {
+        color: var(--safety-orange);
+    }
+
+.copyright {
+    border-top: 1px solid #334155;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 900px) {
+    .cert-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 94%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}

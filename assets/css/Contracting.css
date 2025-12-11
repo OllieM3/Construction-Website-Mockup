@@ -1,0 +1,93 @@
+/* --- CONTRACTING SPECIFIC STYLES (Add to bottom of style.css) --- */
+
+/* Hero Image for Contracting (Blueprints/Construction focus) */
+.hero-contracting {
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.7)), 
+                url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2072&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Process/Methodology Section */
+.process-section {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    counter-reset: process-counter; /* Creates the 1, 2, 3, 4 numbers */
+}
+
+.process-step {
+    position: relative;
+    padding: 30px;
+    background: var(--light-gray);
+    border-radius: 8px;
+    border-left: 5px solid var(--safety-orange);
+}
+
+.process-step::before {
+    counter-increment: process-counter;
+    content: "0" counter(process-counter);
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(15, 23, 42, 0.1); /* Faded Navy */
+}
+
+.process-step h3 {
+    color: var(--primary-navy);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+/* Portfolio Preview Grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.project-item {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    padding: 20px;
+    color: white;
+    transform: translateY(100px); /* Hidden by default */
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover .project-overlay {
+    transform: translateY(0);
+}
+
+/* Specific Project Images (Placeholders) */
+.proj-1 { background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2000&auto=format&fit=crop'); }
+.proj-2 { background-image: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop'); }
+.proj-3 { background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop'); }
