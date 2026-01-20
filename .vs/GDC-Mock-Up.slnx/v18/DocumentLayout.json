@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Python Projects\\GDC-Mock-Up\\",
+  "WorkspaceRootPath": "C:\\Python Projects\\Placeholder-Mock-Up\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\GDC-Mock-Up\\GDC-Rebrand.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GDC-Rebrand.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\Placeholder-Mock-Up\\Placeholder-Rebrand.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Placeholder-Rebrand.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\GDC-Mock-Up\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\Placeholder-Mock-Up\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -31,11 +31,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GDC-Rebrand.html",
-              "DocumentMoniker": "C:\\Python Projects\\GDC-Mock-Up\\GDC-Rebrand.html",
-              "RelativeDocumentMoniker": "GDC-Rebrand.html",
-              "ToolTip": "C:\\Python Projects\\GDC-Mock-Up\\GDC-Rebrand.html",
-              "RelativeToolTip": "GDC-Rebrand.html",
+              "Title": "Placeholder-Rebrand.html",
+              "DocumentMoniker": "C:\\Python Projects\\Placeholder-Mock-Up\\Placeholder-Rebrand.html",
+              "RelativeDocumentMoniker": "Placeholder-Rebrand.html",
+              "ToolTip": "C:\\Python Projects\\Placeholder-Mock-Up\\Placeholder-Rebrand.html",
+              "RelativeToolTip": "Placeholder-Rebrand.html",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-12-11T18:33:33.439Z",
@@ -51,9 +51,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.css",
-              "DocumentMoniker": "C:\\Python Projects\\GDC-Mock-Up\\main.css",
+              "DocumentMoniker": "C:\\Python Projects\\Placeholder-Mock-Up\\main.css",
               "RelativeDocumentMoniker": "main.css",
-              "ToolTip": "C:\\Python Projects\\GDC-Mock-Up\\main.css",
+              "ToolTip": "C:\\Python Projects\\Placeholder-Mock-Up\\main.css",
               "RelativeToolTip": "main.css",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",

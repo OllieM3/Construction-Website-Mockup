@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Python Projects\\GDC-website-project\\",
+  "WorkspaceRootPath": "C:\\Python Projects\\Placeholder-website-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\GDC-website-project\\Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\Placeholder-website-project\\Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\GDC-website-project\\Traffic-safety.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\Placeholder-website-project\\Traffic-safety.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Traffic-safety.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\GDC-website-project\\assets\\css\\Traffic-safety.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\Placeholder-website-project\\assets\\css\\Traffic-safety.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\Traffic-safety.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\GDC-website-project\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Python Projects\\Placeholder-website-project\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Traffic-safety.html",
-              "DocumentMoniker": "C:\\Python Projects\\GDC-website-project\\Traffic-safety.html",
+              "DocumentMoniker": "C:\\Python Projects\\Placeholder-website-project\\Traffic-safety.html",
               "RelativeDocumentMoniker": "Traffic-safety.html",
-              "ToolTip": "C:\\Python Projects\\GDC-website-project\\Traffic-safety.html",
+              "ToolTip": "C:\\Python Projects\\Placeholder-website-project\\Traffic-safety.html",
               "RelativeToolTip": "Traffic-safety.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.html",
-              "DocumentMoniker": "C:\\Python Projects\\GDC-website-project\\Index.html",
+              "DocumentMoniker": "C:\\Python Projects\\Placeholder-website-project\\Index.html",
               "RelativeDocumentMoniker": "Index.html",
-              "ToolTip": "C:\\Python Projects\\GDC-website-project\\Index.html",
+              "ToolTip": "C:\\Python Projects\\Placeholder-website-project\\Index.html",
               "RelativeToolTip": "Index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "main.css",
-              "DocumentMoniker": "C:\\Python Projects\\GDC-website-project\\assets\\css\\main.css",
+              "DocumentMoniker": "C:\\Python Projects\\Placeholder-website-project\\assets\\css\\main.css",
               "RelativeDocumentMoniker": "assets\\css\\main.css",
-              "ToolTip": "C:\\Python Projects\\GDC-website-project\\assets\\css\\main.css",
+              "ToolTip": "C:\\Python Projects\\Placeholder-website-project\\assets\\css\\main.css",
               "RelativeToolTip": "assets\\css\\main.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -85,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Traffic-safety.css",
-              "DocumentMoniker": "C:\\Python Projects\\GDC-website-project\\assets\\css\\Traffic-safety.css",
+              "DocumentMoniker": "C:\\Python Projects\\Placeholder-website-project\\assets\\css\\Traffic-safety.css",
               "RelativeDocumentMoniker": "assets\\css\\Traffic-safety.css",
-              "ToolTip": "C:\\Python Projects\\GDC-website-project\\assets\\css\\Traffic-safety.css",
+              "ToolTip": "C:\\Python Projects\\Placeholder-website-project\\assets\\css\\Traffic-safety.css",
               "RelativeToolTip": "assets\\css\\Traffic-safety.css",
               "ViewState": "AgIAAPcAAAAAAAAAAAAAwDkBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
