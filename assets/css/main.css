@@ -153,6 +153,7 @@ nav {
 .section-header {
     text-align: center;
     margin-bottom: 70px;
+    margin-top: 70px;
 }
 
     .section-header h2 {
@@ -202,7 +203,7 @@ nav {
 }
 
 .img-traffic {
-    background-image: url('assets/images/flagger.jpg');
+    background-image: url('/assets/images/flagger.jpg');
 }
 
 .card-content {
